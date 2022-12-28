@@ -9,6 +9,16 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
 - Install dependencies `npm install`
 - Create an app on [Alchemy](https://www.alchemy.com/) and generate API key
 - Add ether from a faucet : [Goerli Faucet](https://goerlifaucet.com/) or [here](https://www.allthatnode.com/faucet/ethereum.dsrv) or others..
+
+## Developing
+
+- Configure the metadata for your nft using IPFS with [Pinata](https://app.pinata.cloud/) or use the ready ones in the project
+
+    - Upload your image to Pinata and copy CID
+    - Add to `nft-metadata.json` and change other data.
+    - Once you’re done editing the JSON file, save it and upload it to Pinata.
+    - Copy CID and change `mintNFT("ipfs://your CID")"` in `mint-nft.js`  
+
 - Create `.env` like this :
 
     ```
