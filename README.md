@@ -7,7 +7,8 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
 - Clone the repository
 - Moving into the folder with `cd`
 - Install dependencies `npm install`
-- Create an app on [Alchemy](https://www.alchemy.com/) and generate API key   
+- Create an app on [Alchemy](https://www.alchemy.com/) and generate API key
+- Add ether from a faucet : [Goerli Faucet] (https://goerlifaucet.com/) or [This] (https://www.allthatnode.com/faucet/ethereum.dsrv) or ....
 - Create `.env` like this :
 
     ```
