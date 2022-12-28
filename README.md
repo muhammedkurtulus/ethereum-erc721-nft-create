@@ -4,7 +4,7 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
 
 ## Getting Started
 
-- Clone the repository, moving into the folder with `cd, `install dependencies `npm install`
+- Clone the repository, moving into the folder with `cd`, install dependencies `npm install`
 - Create an app on [Alchemy](https://www.alchemy.com/) and generate API key
 - Add ether from a faucet : [Goerli Faucet](https://goerlifaucet.com/) or [here](https://www.allthatnode.com/faucet/ethereum.dsrv) or others..
 - Configure the metadata for your nft using IPFS with [Pinata](https://app.pinata.cloud/) or use the ready ones in the project
