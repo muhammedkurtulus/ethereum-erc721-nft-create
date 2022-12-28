@@ -2,7 +2,7 @@
 
 Creating and deploying an ERC-721 smart contract on the Goerli test network.
 
-<!-- ## Getting Started
+## Getting Started
 
 - Clone the repository
 - Moving into the folder with `cd`
@@ -15,8 +15,12 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
     PUBLIC_KEY = "metamask public key"
     ```
 - Compile the smart contracts `npx hardhat compile`
-- Deploy the smart contracts  `npx hardhat --network goerli run scripts/deploy.js`
-- Node scripts/mint-nft.js -->
+- Deploy the smart contracts `npx hardhat --network goerli run scripts/deploy.js`
+
+    - Go to the [Goerli etherscan](https://goerli.etherscan.io/) and copy contract adress.
+    - Add `CONTRACT_ADDRESS = "contract address"` to `.env`
+
+- Deploy the nft `node scripts/mint-nft.js`
 
 
 <!-- ### Screenshots
