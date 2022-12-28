@@ -7,6 +7,7 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
 - Clone the repository
 - Moving into the folder with `cd`
 - Install dependencies `npm install`
+- Create an app on [Alchemy](https://www.alchemy.com/) and generate API key   
 - Create `.env` like this :
 
     ```
@@ -14,14 +15,21 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
     PRIVATE_KEY = "metamask private key"
     PUBLIC_KEY = "metamask public key"
     ```
+
 - Compile the smart contracts `npx hardhat compile`
 - Deploy the smart contracts `npx hardhat --network goerli run scripts/deploy.js`
 
     - Go to the [Goerli etherscan](https://goerli.etherscan.io/) for check.
     - Copy contract adress from Goerli etherscan or console.
-    - Add `CONTRACT_ADDRESS = "contract address"` to `.env`
+    - Change `const contractAddress = "your contract adress"` in `mint-nft.js`
 
-- Deploy the NFT `node scripts/mint-nft.js`
+- Deploy the NFT `node scripts/mint-nft.js` and check [Goerli etherscan](https://goerli.etherscan.io/)
+
+- For view your NFT in your wallet: 
+
+    - Get metamask mobile app
+    - Select Goerli Test Network as your network.
+    - Import your NFT: Address: `contract adress` and ID: `1` (collectible ID)
 
 
 <!-- ### Screenshots
