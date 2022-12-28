@@ -21,7 +21,7 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
     - Copy contract adress from Goerli etherscan or console.
     - Add `CONTRACT_ADDRESS = "contract address"` to `.env`
 
-- Deploy the nft `node scripts/mint-nft.js`
+- Deploy the NFT `node scripts/mint-nft.js`
 
 
 <!-- ### Screenshots
