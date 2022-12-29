@@ -19,7 +19,7 @@ Creating and deploying an ERC-721 smart contract on the Goerli test network.
 - Create `.env` like this :
 
     ```
-    API_URL = "alchemy api url"
+    API_URL = "alchemy api https url"
     PRIVATE_KEY = "metamask private key"
     PUBLIC_KEY = "metamask public key"
     ```
